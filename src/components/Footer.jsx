@@ -33,7 +33,8 @@ const footerItems = [
 function Footer() {
   return (
     <>
-      <div className="inline-flex justify-center space-x-20 font-bold tracking-wide text-gray-600 uppercase lg:bottom-20 ">
+  
+      <div className="inline-flex justify-center space-x-20 font-bold tracking-wide text-gray-600 uppercase lg:bottom-20 h-70 m-20">
         {footerItems.map(item=>(
             <a
           href={item.href}
